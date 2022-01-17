@@ -1,3 +1,11 @@
+/* ==UserStyle==
+@name           Xcloud Scrollbar Fix - 1/17/2022, 10:14:28 PM
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Fixes the fullscreen vertical scrollbar bug on Xbox Cloud Gaming
+@author         tkon.nl
+==/UserStyle== */
+
 @-moz-document regexp("https://www.xbox.com/(.+)/play/(.+)") {
 html.fullscreen {
     overflow: hidden !important;
