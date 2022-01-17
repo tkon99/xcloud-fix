@@ -5,10 +5,8 @@
 @description    Fixes the fullscreen vertical scrollbar bug on Xbox Cloud Gaming
 @author         tkon.nl
 ==/UserStyle== */
-@-moz-document domain("xbox.com") {
-    @-moz-document regexp("https://www.xbox.com/(.+)/play/(.+)") {
-        html.fullscreen {
-            overflow: hidden !important;
-        }
+@-moz-document regexp("https://www.xbox.com/(.+)/play/(.+)") {
+    html.fullscreen {
+        overflow: hidden !important;
     }
 }
