@@ -1,0 +1,5 @@
+@-moz-document regexp("https://www.xbox.com/(.+)/play/(.+)") {
+html.fullscreen {
+    overflow: hidden !important;
+}
+}
